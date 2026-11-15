@@ -5,6 +5,10 @@ filled with **invented** series (abstract generated artwork, silent audio).
 
 1. `make_demo.py` builds the demo library and three messy inbox files. Run it
    inside the app's Docker image (it has ffmpeg and Pillow).
+   `make_covers.py` then draws the ten series' covers (each its own idea, a
+   nod to old-time radio: a tuning dial, sound waves, a studio microphone, a
+   lighthouse…); they replace each series folder's `cover.jpg`, and the app
+   is rescanned.
 2. Start a throwaway copy of the app on port 8090 with that library, its own
    data folder and inbox. Give the series genres, start a few episodes, mark
    some played, and make and publish a feed for "Night Signal". For the
