@@ -169,6 +169,7 @@ h1, h2, h3 { margin: 0; letter-spacing: -0.025em; }
 }
 .promises strong { display: block; color: var(--text); font-size: 1.25rem; margin-bottom: 4px; letter-spacing: -0.02em; }
 @media (max-width: 560px) { .promises { grid-template-columns: 1fr; } }
+.promises .promise-wide { grid-column: 1 / -1; }
 
 /* The closing call. */
 .cta { text-align: center; padding: 40px 22px 130px; max-width: 900px; margin: 0 auto; }
