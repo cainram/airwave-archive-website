@@ -15,7 +15,6 @@
   --dark-surface: #111114;
   --dark-text: #f5f5f7;
   --dark-muted: #a1a1a6;
-  --glow: linear-gradient(100deg, #ff6b6b 0%, #c06cf0 45%, #3ec7e0 100%);
   --radius: 28px;
   font-synthesis: none;
 }
@@ -75,7 +74,8 @@ h1, h2, h3 { margin: 0; letter-spacing: -0.025em; }
 .hero { max-width: 1080px; margin: 0 auto; padding: 88px 22px 40px; text-align: center; }
 .eyebrow { margin: 0 0 14px; font-size: 1.15rem; font-weight: 600; color: var(--muted); }
 .hero h1 { font-size: clamp(2.8rem, 7.4vw, 5.6rem); line-height: 1.04; font-weight: 700; letter-spacing: -0.04em; }
-.glow { background: var(--glow); -webkit-background-clip: text; background-clip: text; color: transparent; }
+/* The second line of the headline, in soft grey: the clutter fading away. */
+.quiet { color: var(--muted); }
 .lede { max-width: 640px; margin: 22px auto 0; font-size: clamp(1.2rem, 2.2vw, 1.5rem); line-height: 1.35; color: var(--muted); }
 .hero-actions { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: center; justify-content: center; }
 .pill {
