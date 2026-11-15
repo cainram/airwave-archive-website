@@ -14,7 +14,8 @@ filled with **invented** series (abstract generated artwork, silent audio).
    some played, and make and publish a feed for "Night Signal". For the
    calendar picture, many episodes were moved into March 2024 in the demo's
    own database.
-3. `screenshots.py` and `screenshot_inbox.py` take the pictures with
+3. `screenshots.py`, `screenshot_inbox.py` and `screenshot_mobile_home.py`
+   (the phone's home page, with only two "Continue listening" cards) take the pictures with
    Playwright (the `mcr.microsoft.com/playwright/python` image, run with
    `--network host`).
 4. The PNGs are converted to WebP (desktop 2400 px wide, phone 900 px) into
