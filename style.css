@@ -158,6 +158,11 @@ h1, h2, h3 { margin: 0; letter-spacing: -0.025em; }
 @media (max-width: 860px) { .features { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px) { .features { grid-template-columns: 1fr; } }
 
+/* Podcasts: the same features grid, on the light page. */
+.features-light { margin-top: 72px; }
+.features-light .feature svg { stroke: var(--accent); }
+.features-light .feature p { color: var(--muted); }
+
 /* Yours. */
 .promises {
   list-style: none; padding: 0; margin: 0 auto; max-width: 900px;
