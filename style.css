@@ -126,6 +126,7 @@ h1, h2, h3 { margin: 0; letter-spacing: -0.025em; }
 .card-wide .shot { margin: 32px 36px 0; border-radius: 12px 12px 0 0; border-right: 1px solid var(--line); }
 .phone-card { width: 58%; max-width: 260px; margin: 32px auto -60px; border-width: 8px; border-radius: 38px; box-shadow: none; }
 .card-tall { min-height: 560px; }
+.card-tall .card-text { flex: 1; }   /* side by side: the phones line up, whatever the text's length */
 .card-split { flex-direction: row; align-items: center; justify-content: space-between; gap: 24px; min-height: 380px; }
 .card-split .card-text { padding: 36px; }
 .card-split .phone-card { width: 32%; margin: 36px 48px -80px 0; flex: none; }
